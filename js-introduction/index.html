@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Introduction</title>
+</head>
+<body>
+      <h1>First step with java-script</h1>
+      <h2>Web.html and Backend.js</h2>
+      <h3>Expected console content and node.js run:</h3>
+      <p id="name"></p>
+      <p id="age"></p>
+      <p id="operation"></p>
+  <script>
+    const nameHtml = document.getElementById("name")
+    const ageHtml = document.getElementById("age")
+    const operationHtml = document.getElementById("operation")
+
+    let name = "Manuela";
+    let age = 18;
+    let operationResult = 7 + 3;
+
+    nameHtml.innerHTML = (`Creator's name: ${name}`)
+    ageHtml.innerHTML = (`Creator's age: ${age}`)
+    operationHtml.innerHTML = (`Result (7 + 3) = ${operationResult}`)
+
+
+    console.log(`Creator's name: ${name}\nCreator's age: ${age}\nResult (7 + 5) = ${operationResult}`);
+  </script>
+</body>
+</html>
