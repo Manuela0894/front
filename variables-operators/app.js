@@ -6,10 +6,6 @@ let name = prompt(`Type your name:`) || "Manuela";
 const age = prompt(`Type your age:`) || 18;
 var city = prompt(`Type your city:`) || "São Paulo";
 
-if (name === null) {
-  name = manuela;
-}
-
 textHtml.innerHTML = `Hi, ${name}! You are ${age} years old and you live in ${city}.`;
 
 let num1 = 40;
