@@ -1,12 +1,5 @@
-const textHtml = document.getElementById("text");
 const numberHtml = document.getElementById("numbers");
 const operationHtml = document.getElementById("operations");
-
-let name = prompt(`Type your name:`) || "Manuela";
-const age = prompt(`Type your age:`) || 18;
-var city = prompt(`Type your city:`) || "São Paulo";
-
-textHtml.innerHTML = `Hi, ${name}! You are ${age} years old and you live in ${city}.`;
 
 let num1 = 40;
 let num2 = 20;

@@ -11,7 +11,16 @@
 <p id="text"></p>
 <p id="numbers"></p>
 <p id="operations"></p>
+<script>
+  const textHtml = document.getElementById("text");
 
+  let name = prompt(`Type your name:`) || "Manuela";
+  const age = prompt(`Type your age:`) || 18;
+  var city = prompt(`Type your city:`) || "São Paulo";
+
+  textHtml.innerHTML = `Hi, ${name}! You are ${age} years old and you live in ${city}.`;
+
+</script>
 <script src="app.js"></script>
 </body>
 </html>

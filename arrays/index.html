@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrays</title>
+  </head>
+  <body>
+    <h1>Arrays</h1>
+    <h3>Expected console output:</h3>
+    <p>Array manipulation using:</p>
+    <ul>
+        <li>Push, pop, unshift, shift</li>
+        <li>Filter</li>
+        <li>Map</li>
+        <li>Reduce</li>
+        <li>Sort - Reverse</li>
+    </ul>
+    <script>
+        let fruits = ["grape", "apple", "pear","strawberry", "blueberry"]
+        fruits.push("oranje");
+        fruits.pop()
+        console.log(fruits)
+        fruits.unshift("banana")
+        fruits.shift()
+        console.log("Array: "+ fruits)
+
+        //FILTER
+        let numbers = [11, 22, 33, 44, 55];
+        console.log(numbers)
+        let even = numbers.filter(num => num % 2 === 0);
+        console.log("Even numbers:" + even)
+
+        //MAP
+        let squaredNum = [12, 3, 6, 7]
+        console.log(squaredNum)
+        let squared = squaredNum.map(squaredNum => squaredNum * squaredNum)
+        console.log("Squared numbers: " + squared)
+
+
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
