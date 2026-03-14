@@ -1,6 +1,5 @@
+    let nameConsole = "Manuela";
+    let ageConsole = 18;
+    let operationResultConsole = 7 + 3;
 
-let name = "Manuela";
-let age = 18;
-let operationResult = 7 + 3;
-
-console.log(`Creator's name: ${name}\nCreator's age: ${age}\nResult (7 + 3) = ${operationResult}`);
+    console.log(`Creator's name: ${nameConsole}\nCreator's age: ${ageConsole}\nResult (7 + 5) = ${operationResultConsole}`);
