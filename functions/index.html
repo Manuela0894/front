@@ -1,0 +1,53 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Functions</title>
+</head>
+<body>
+
+<h1>Functions</h1>
+<h3>Expected console output using the three types of function</h3>
+<ul>
+  <li>Traditional function</li>
+  <li>Anonymous function</li>
+  <li>Arrow function</li>
+</ul>
+<p>Type a number:</p>
+<input type="number" maxlength="2" max="10" min="0"  id="number">
+<input type="button" id="button" value="Enter">
+<p id="result"></p>
+<script>
+
+  //NAMED FUNCTION
+console.log('Traditional function');
+
+function nameAge (name, age){
+    var name = 'joão';
+    var age = 25;
+    console.log("Hello," + name + "!" + " You are " + age + " years old.");
+}
+
+nameAge();
+
+ //ANONYMOUS FUNCTION
+console.log('Anonymous function');
+
+(function(num){
+    var num = 2;
+    console.log(num + "*" + 2 + "=" + num * 2)
+})();
+
+ //ARROW FUNCTION
+console.log('Arrow function');
+
+const arrowFunc = (a, b) => {
+    var a = 3;
+    var b = 7;
+  console.log(a+b);
+};
+
+arrowFunc()
+</script>
+<script src="app.js"></script>
+</body>
+</html>
